@@ -1,4 +1,5 @@
 #include "event.hpp"
 
-// Event implementation (define non-pure-virtual event member functions below,
-// if relevant)
+bool event::hit_by_arrow(int wump_x, int wump_y, player& p, char direction) {
+    return false; // Default until overwritten
+}

@@ -1,13 +1,21 @@
+/*
+ * Author: Nathan Carrillo
+ * Description: Game program that involves a 2-D map of rooms and player, 
+ * with the possibility of encountering different events that will cause
+ * a loss or win. 
+ */
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
 #include "game.hpp"
+#include "player.hpp"
 
 /*
  * Function: get_width
  * Description: Prompts the user for the game board width (# of columns)
  * Returns (int): Valid width supplied by user
- */
+*/
 int get_width() {
 	int width;
 	bool first = true;
